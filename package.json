@@ -1,6 +1,6 @@
 {
   "name": "@golden-tiger/fstree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "@golden-tiger/fstree",
   "main": "./lib/cjs-module.js",
   "module": "./lib/es-module.js",
