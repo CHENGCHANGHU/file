@@ -1,6 +1,6 @@
 {
   "name": "@golden-tiger/fstree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "@golden-tiger/fstree",
   "main": "./lib/cjs-module.js",
   "module": "./lib/es-module.js",
@@ -12,7 +12,8 @@
     "dev:mac": "mode=development minimize=false webpack --config webpack.config.js --env development --env minimize=false",
     "build:mac": "mode=production minimize=true webpack --config webpack.config.js --env production --env minimize",
     "dev:windows": "set mode=development&&set minimize=false&&webpack --config webpack.config.js --env development --env minimize=false",
-    "build:windows": "set mode=production&&set minimize=true&&webpack --config webpack.config.js --env production --env minimize"
+    "build:windows": "set mode=production&&set minimize=true&&webpack --config webpack.config.js --env production --env minimize",
+    "publish": "node ./publish-helper.mjs"
   },
   "repository": {
     "type": "git",
@@ -28,14 +29,14 @@
   ],
   "keywords": [
     "golden-tiger",
-    "file"
+    "fstree"
   ],
   "author": "Cheng ChangHu",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/CHENGCHANGHU/file/issues"
+    "url": "https://github.com/CHENGCHANGHU/fstree/issues"
   },
-  "homepage": "https://github.com/CHENGCHANGHU/file#readme",
+  "homepage": "https://github.com/CHENGCHANGHU/fstree#readme",
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@babel/preset-env": "^7.18.10",
