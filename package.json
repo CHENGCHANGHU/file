@@ -1,6 +1,6 @@
 {
   "name": "@golden-tiger/fstree",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "@golden-tiger/fstree",
   "main": "./lib/cjs-module.js",
   "module": "./lib/es-module.js",
@@ -13,7 +13,7 @@
     "build:mac": "mode=production minimize=true webpack --config webpack.config.js --env production --env minimize",
     "dev:windows": "set mode=development&&set minimize=false&&webpack --config webpack.config.js --env development --env minimize=false",
     "build:windows": "set mode=production&&set minimize=true&&webpack --config webpack.config.js --env production --env minimize",
-    "publish": "node ./publish-helper.mjs"
+    "publish:patch": "node ./publish-helper.mjs"
   },
   "repository": {
     "type": "git",
